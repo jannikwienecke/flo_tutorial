@@ -63,6 +63,8 @@ export default function Index() {
         <button className="bg-red-600 m-2 p-2  ">Add new car</button>
       </Form>
 
+      <h1>Test Flo</h1>
+
       {data.car.map((item, index) => (
         <div key={index}>{item.name}</div>
       ))}
